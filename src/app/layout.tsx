@@ -40,10 +40,10 @@ export default function RootLayout({
         {/* Render page content */}
         {/* Always render Footer */}
         {children} 
+        <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+        <script src="https://files.bpcontent.cloud/2024/10/23/20/20241023200211-2X1Z98RQ.js"></script>
         <Footer />
         
-    <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
-<script src="https://files.bpcontent.cloud/2024/10/23/20/20241023200211-2X1Z98RQ.js"></script>
     
       </body>
     </html>

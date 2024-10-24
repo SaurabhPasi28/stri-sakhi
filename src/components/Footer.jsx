@@ -3,7 +3,8 @@ import { FaTwitter, FaYoutube, FaFacebook, FaLinkedin, FaInstagram } from 'react
 
 const Footer = () => {
   return (
-    <footer className="flex justify-between items-center p-4 bg-slate-300 border-t border-gray-300 flex-wrap">
+    <footer className="flex justify-center items-center p-4 bg-slate-300 border-t border-gray-300 flex-wrap md:justify-between">
+
       <div className="flex flex-col items-center">
         <p className="pb-4 font-bold">Follow Sakhi</p>
         <div className="flex space-x-4">

@@ -19,11 +19,11 @@ const HealthyLivingComponent = ({props}) => {
           {section.subsections.map((subsection, subsectionIndex) => (
             <article key={subsectionIndex} className="mb-6">
               {/* Subsection Heading */}
-              <h3 className="text-xl  font-semibold mb-2"><h3 className='pr-1'>{sectionIndex+1 }.{subsectionIndex+1}. </h3>{subsection.subheading}</h3>
+              <h3 className="flex text-xl  font-semibold mb-2 ml-16"><h3 className='pr-1'>{sectionIndex+1 }.{subsectionIndex+1}. </h3>{subsection.subheading}</h3>
 
               {/* Subsection Text */}
               {subsection.text.map((textItem, textIndex) => (
-                <p key={textIndex} className="mb-2 text-left">{textItem.text}</p>
+                <p key={textIndex} className="mb-2 ml-20 text-left text-justify w-[90%]">{textItem.text}</p>
               ))}
 
               {/* Subsection Image */}
