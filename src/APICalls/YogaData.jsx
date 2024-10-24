@@ -3,17 +3,17 @@ export const data = {
     "articles": [
       {
         "title": "The Benefits of Yoga for Women",
-        "image": "path_to_image1.jpg",
+        "image": "https://cdn.pixabay.com/photo/2016/03/27/23/08/woman-1284656_1280.jpg",
         "content": "Yoga offers numerous benefits for women, including improved flexibility, strength, and mental clarity. It can also help manage stress, enhance overall well-being, and support a balanced lifestyle."
       },
       {
         "title": "Essential Yoga Poses for Women's Health",
-        "image": "path_to_image2.jpg",
+        "image": "https://cdn.pixabay.com/photo/2019/12/31/16/06/yoga-4732209_1280.jpg",
         "content": "Certain yoga poses can be particularly beneficial for women's health, including poses that support hormonal balance, enhance reproductive health, and promote relaxation. Incorporate these poses into your routine for better health and vitality."
       },
       {
         "title": "How Yoga Supports Mental and Emotional Wellness",
-        "image": "path_to_image3.jpg",
+        "image": "https://c8.alamy.com/comp/FDFA3D/senior-healthy-old-woman-practicing-yoga-and-tai-chi-outdoor-FDFA3D.jpg",
         "content": "Yoga not only strengthens the body but also supports mental and emotional wellness. Through practices such as mindful breathing and meditation, yoga helps reduce anxiety, improve mood, and foster a sense of inner peace."
       }
     ],

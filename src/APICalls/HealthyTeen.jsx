@@ -43,7 +43,7 @@ const HealthyLivingData = {
           ],
 
           image:
-            "https://www.niddk.nih.gov/-/media/Images/Health-Information/Weight-Management/shutterstock_112646603.jpg",
+            "https://exerciseright.com.au/wp-content/uploads/2018/10/shutterstock_55343908-e1538445332758.jpg",
         },
         {
           subheading: "Growth Spurts",
@@ -66,7 +66,7 @@ const HealthyLivingData = {
           ],
 
           image:
-            "https://www.niddk.nih.gov/-/media/Images/Health-Information/Weight-Management/shutterstock_112646603.jpg",
+            "https://www.shutterstock.com/image-vector/growth-spurts-vector-flat-poster-260nw-1919762060.jpg",
         },
       ],
     },
@@ -97,7 +97,7 @@ const HealthyLivingData = {
           ],
 
           image:
-            "https://www.niddk.nih.gov/-/media/Images/Health-Information/Weight-Management/shutterstock_112646603.jpg",
+            "https://assets.babycenter.com/ims//2024/08/07-24_Menstruation_Chart.jpg",
         },
         {
           subheading: "Managing Menstrual Pain and PMS",

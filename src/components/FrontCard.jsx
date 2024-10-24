@@ -7,7 +7,7 @@ const FrontCard = ({ imageSrc, altText, description, link }) => {
       href={link}
       // target="_blank"
       rel="noopener noreferrer"
-      className="w-60 border border-gray-300 bg-white rounded-lg overflow-hidden flex flex-col items-center shadow-md text-current transition-transform duration-300 ease-in-out hover:border-blue-500 hover:scale-105 mb-8"
+      className="w-60 border border-gray-300 bg-zinc-400 rounded-lg overflow-hidden flex flex-col items-center shadow-md text-current transition-transform duration-300 ease-in-out hover:border-blue-500 hover:scale-105 mb-8"
     >
       <div className="w-full h-4/5 flex items-center overflow-hidden">
         <img src={imageSrc} alt={altText} className="w-full object-cover" />
