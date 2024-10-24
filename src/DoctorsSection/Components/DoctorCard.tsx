@@ -1,9 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import { FaStar } from "react-icons/fa";
+import { FaStar, FaUserAlt } from "react-icons/fa";
 import Link from "next/link"; // Import Link for routing
 import { useRouter } from "next/navigation";
 import { FaRegUser } from "react-icons/fa";
+import defaultImage from '@/public/defaultImage.jpg'
 
 interface DoctorCardProps {
   doctor: {
@@ -12,6 +13,9 @@ interface DoctorCardProps {
     specialization: string;
     picture: string;
     rating: number;
+    experience: number;
+    location: string;
+
   };
 }
 
@@ -29,33 +33,18 @@ const DoctorCard: React.FC<DoctorCardProps> = ({ doctor }) => {
   ));
 
   return (
-    <div
-      className="bg-[#C01761] shadow-md rounded-lg p-4 max-w-xs text-center transform transition-all duration-300 hover:scale-105 hover:border-2 hover:border-blue-500 cursor-pointer w-60"
-      onClick={goToDoc}
-    >
-      {/* Doctor Image */}
-      <div className="w-full h-48 relative">
-        {picture ? (
-          <Image
-            src={picture}
-            alt={`Picture of ${name}`}
-            layout="fill"
-            objectFit="cover"
-            className="rounded-t-lg"
-          />
-        ) : (
-          <FaRegUser className="mx-auto" size={100}/>
-        )}
+    <div>
+      <div className="w-64 bg-pink-700 p-4 rounded-3xl hover:scale-[101%] duration-300 cursor-pointer" onClick={goToDoc}>
+        {
+          doctor.picture ? <img src={doctor.picture} className="w-56 h-56 object-cover rounded-3xl" alt="" /> : <img src="/defaultImage.jpg" className="w-56 h-56 object-cover rounded-3xl" alt="" />
+        }
+
+        <p className="font-bold text-white text-xl mt-2">{doctor.name}</p>
+        <p className="font-semibold text-white italic">Specialization : {doctor.specialization}</p>
+        {/* <p className="font-semibold text-white italic">Location : {doctor.location}</p> */}
+        <div className="flex gap-1 items-center font-semibold text-white">Rating : {stars}</div>
+        
       </div>
-
-      {/* Doctor Name */}
-      <h3 className="mt-4 text-xl font-semibold">{name}</h3>
-
-      {/* Specialization */}
-      <p className="text-white">{specialization}</p>
-
-      {/* Rating Section */}
-      <div className="flex justify-center items-center mt-4">{stars}</div>
     </div>
   );
 };

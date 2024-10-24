@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "@/components/Footer.jsx";
-import Chatbot from "@/components/Chatbot.jsx";
+// import Chatbot from "@/components/Chatbot.jsx";
 import HeroSection from "@/components/HeroSection.jsx";
 import Navbar from "@/components/Navbar.jsx";
 import Header from "@/DoctorsSection/Components/Header";
@@ -34,7 +34,7 @@ export default function RootLayout({
           <>
             <Header />
             <HeroSection />
-            <Chatbot />
+            {/* <Chatbot /> */}
           </>
         {/* )} */}
         {/* Render page content */}

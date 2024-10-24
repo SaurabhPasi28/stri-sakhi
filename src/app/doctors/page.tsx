@@ -13,6 +13,8 @@ interface Doctor {
   specialization: string;
   picture: string;
   rating: number;
+  experience: number;
+  location: string;
   
 }
 
@@ -23,7 +25,7 @@ const Doctors: React.FC = () => {
     const fetchDoctors = async () => {
       console.log("fetchDoctors---------**********8")
       try {
-        const res = await axios.get(`${BACKEND_URL}/doctors/all/`);
+        const res = await axios.get(`${BACKEND_URL}/doctors/all/` , { params:{ location: "Una"}});
         
         console.log("This is responst printing: ", res.data.data)
         setDoctors(res.data.data)
@@ -37,14 +39,13 @@ const Doctors: React.FC = () => {
   },[]);
 
   return (
-    <div className="container max-w-full mb-10">
+    <div className="container max-w-full mb-10 py-6 px-10">
       {/* Heading Section */}
-      <div className="m-10 ml-20">
-        <h1 className="text-3xl font-bold text-gray-800 text-left ">Doctors :- </h1>
-      </div>
+      <h1 className="text-3xl font-bold text-gray-800 mb-10 text-center">Doctors</h1>
+
 
       {/* Doctor Cards Section */}
-      <div className="flex flex-wrap justify-center gap-14">
+      <div className="flex flex-wrap gap-14">
         {doctors.map((doctor) => (
           <DoctorCard key={doctor.id} doctor={doctor} />
         ))}

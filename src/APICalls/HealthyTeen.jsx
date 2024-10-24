@@ -3,7 +3,7 @@ const HealthyLivingData = {
   description: "Explore essential tips and practices for maintaining a healthy lifestyle.",
   data: [
     {
-      title: "Puberty and Body Changesy",
+      title: "Physical Development",
       subsections: [
         {
           subheading: "Puberty and Body Changes",
@@ -23,7 +23,24 @@ const HealthyLivingData = {
             "https://www.niddk.nih.gov/-/media/Images/Health-Information/Weight-Management/shutterstock_112646603.jpg",
         },
         {
-          subheading: "Puberty and Body Changes",
+          subheading: "Breast Development and Pain",
+          text: [
+            {
+              text: " ifksdkf",
+            },
+            {
+              text: "ifilslfk",
+            },
+            {
+              text: "fkdfkl ",
+            },
+          ],
+
+          image:
+            "https://www.niddk.nih.gov/-/media/Images/Health-Information/Weight-Management/shutterstock_112646603.jpg",
+        },
+        {
+          subheading: "Growth Spurts",
           text: [
             {
               text: " ifksdkf",

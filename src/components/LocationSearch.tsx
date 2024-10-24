@@ -14,8 +14,7 @@ const LocationSearch: React.FC = () => {
   console.log("Location:", location);
 
   useEffect(() => {
-    const fetchCityName = async () => {
-      
+    const fetchCityName = async () => { 
       if (location.loaded && !location.error) {
         const { lat, lng } = location.coordinates;
         // latitude and longitude of Lucknow (for development purpose only)
