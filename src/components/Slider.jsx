@@ -59,7 +59,7 @@ function HomeSlider() {
             className="object-cover h-[400px] w-screen overflow-hidden"
           />
         </div>
-        <div>
+        {/* <div>
           <img
             src="jayhoGPT.png"
             alt="Slide 3"
@@ -72,7 +72,7 @@ function HomeSlider() {
             alt="Slide 4"
             className="object-cover h-[400px] w-screen overflow-hidden"
           />
-        </div>
+        </div> */}
         <div>
           <img
             src="https://assets.thehansindia.com/h-upload/2024/08/21/1473260-dxcv-21.jpg"

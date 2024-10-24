@@ -72,7 +72,7 @@ const Footer = () => {
             className="hover:text-blue-500 transition"
           >
             <img
-              src="Google_Play_Store_badge_EN.svg"
+              src="https://www.connectedly.org/wp-content/uploads/2023/12/Google-Play.jpg"
               alt="Google Play Store"
               className="w-32"
             />
@@ -85,7 +85,7 @@ const Footer = () => {
             className="hover:text-blue-500 transition"
           >
             <img
-              src="App_Store_Badge_EN.svg"
+              src="https://www.connectedly.org/wp-content/uploads/2023/12/OIP.jpg"
               alt="Apple App Store"
               className="w-32"
             />
