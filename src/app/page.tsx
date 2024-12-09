@@ -10,6 +10,7 @@ import HomeSlider from '@/components/Slider.jsx'
 import CardBox from '@/components/CardsBox.jsx'
 import useGeoLocation from '@/hooks/useGeolocation';
 import useLocationStore from '@/store/locationStore';
+import GoogleTranslator from '@/components/GoogleTranslator'
 export default function Home() {
 
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Footer/> */}
       <HomeSlider/>
       <CardBox/>
+      {/* <GoogleTranslator /> */}
     </div>
   );
 }

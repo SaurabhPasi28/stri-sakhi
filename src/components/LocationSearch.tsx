@@ -58,7 +58,7 @@ const LocationSearch: React.FC = () => {
 
   return (
     <div className="flex items-center border border-pink-500 shadow-lg rounded-full overflow-hidden max-w-full">
-      <div className="flex items-center px-4 py-2 bg-gray-100 border-r border-gray-400">
+      <div className="flex items-center px-4 py-2 bg-gray-100 border-r border-gray-400 overflow-clip">
         <FaMapMarkerAlt className="text-gray-600 mr-2" />
         <span className="text-gray-700">{renderLocation()}</span>
       </div>

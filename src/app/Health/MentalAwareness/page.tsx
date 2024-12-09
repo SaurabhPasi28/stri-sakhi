@@ -12,7 +12,7 @@ const MentalAwareness = () => {
   return (
     <div className="p-6">
       {/* Mental Awareness Section */}
-      <section className="mb-8">
+      <section className="mb-8 flex">
         <h1 className="text-3xl font-bold mb-4">Mental Awareness</h1>
         <p className="text-lg">
           Understanding your body is the first step toward good health. As a teen, you’re going through many physical, emotional, and hormonal changes. It's important to learn about how your body works, recognize what's normal, and when to seek help. Self-care, proper nutrition, and mental health awareness are key components of maintaining a healthy lifestyle. Remember, it’s okay to ask questions and seek advice when needed.
@@ -25,7 +25,7 @@ const MentalAwareness = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {data.articles.map((article, index) => (
             <div key={index} className="p-4 bg-white shadow rounded-lg">
-              <img src={article.image} alt={article.title} className="w-full h-40 object-cover rounded-t-lg mb-4" />
+              <img src={article.image} alt={article.title} className="w-full h-45 object-cover rounded-t-lg mb-4" />
               <p className="text-xl font-semibold mb-2">{article.title}</p>
               <p className="text-base">{article.content}</p>
             </div>

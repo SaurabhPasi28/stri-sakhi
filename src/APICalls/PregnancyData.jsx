@@ -3,17 +3,17 @@ export const data = {
     "articles": [
       {
         "title": "The Essentials of Prenatal Care",
-        "image": "path_to_image1.jpg",
+        "image": "https://i.ytimg.com/vi/m_rnXyZFNLg/maxresdefault.jpg",
         "content": "Prenatal care is essential for the health of both mother and baby. Regular check-ups with your healthcare provider, a balanced diet, and taking prenatal vitamins can help ensure a healthy pregnancy."
       },
       {
         "title": "Understanding the Stages of Pregnancy",
-        "image": "path_to_image2.jpg",
+        "image": "https://i.dailymail.co.uk/1s/2023/01/17/11/66660779-11545837-image-a-11_1673956782322.jpg",
         "content": "Pregnancy is divided into three trimesters, each with its own milestones and developmental stages. Knowing what to expect in each trimester can help you prepare for the changes ahead."
       },
       {
         "title": "Tips for a Healthy Pregnancy",
-        "image": "path_to_image3.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR6MprV3-iU60qBAyGCkNR7v9vC3wFtZtcjA&s",
         "content": "Maintaining a healthy lifestyle during pregnancy includes regular exercise, avoiding harmful substances, and managing stress. Staying hydrated and getting enough rest are also crucial for both maternal and fetal health."
       }
     ],

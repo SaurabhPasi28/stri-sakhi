@@ -5,6 +5,7 @@ import DoctorCard from '@/DoctorsSection/Components/DoctorCard';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import BACKEND_URL from '@/store/constants'
+import useLocationStore from '@/store/locationStore';
 
 
 interface Doctor {
@@ -20,12 +21,14 @@ interface Doctor {
 
 const Doctors: React.FC = () => {
   const [doctors, setDoctors] = useState<Doctor[]>([]);
+  const city = useLocationStore((state) => state.city)
+  console.log("___________**************________________" , city)
   
   useEffect(() => {
     const fetchDoctors = async () => {
-      console.log("fetchDoctors---------**********8")
+      // console.log("fetchDoctors---------**********8")
       try {
-        const res = await axios.get(`${BACKEND_URL}/doctors/all/` , { params:{ location: "Una"}});
+        const res = await axios.get(`${BACKEND_URL}/doctors/all/` , { params:{ location: city}});
         
         console.log("This is responst printing: ", res.data.data)
         setDoctors(res.data.data)
@@ -36,7 +39,7 @@ const Doctors: React.FC = () => {
     };
 
     fetchDoctors();
-  },[]);
+  },[city]);
 
   return (
     <div className="container max-w-full mb-10 py-6 px-10">

@@ -25,7 +25,7 @@ const Pregnancy = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {data.articles.map((article, index) => (
             <div key={index} className="bg-white rounded-lg shadow-md p-4 space-y-2">
-              <img src={article.image} alt={article.title} className="w-full h-40 object-cover rounded-md mb-4" />
+              <img src={article.image} alt={article.title} className="w-full h-45 object-cover rounded-md mb-4" />
               <p className="font-semibold text-lg">{article.title}</p>
               <p className="text-gray-600">{article.content}</p>
             </div>

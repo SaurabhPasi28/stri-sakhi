@@ -6,8 +6,9 @@ import "./globals.css";
 import Footer from "@/components/Footer.jsx";
 // import Chatbot from "@/components/Chatbot.jsx";
 import HeroSection from "@/components/HeroSection.jsx";
-import Navbar from "@/components/Navbar.jsx";
+// import Navbar from "@/components/Navbar.jsx";
 import Header from "@/DoctorsSection/Components/Header";
+import GoogleTranslator from "@/components/GoogleTranslator";
 
 const metadata: Metadata = {
   title: "Create Next App",
@@ -43,7 +44,7 @@ export default function RootLayout({
         <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
         <script src="https://files.bpcontent.cloud/2024/10/23/20/20241023200211-2X1Z98RQ.js"></script>
         <Footer />
-        
+        {/* <GoogleTranslator /> */}
     
       </body>
     </html>

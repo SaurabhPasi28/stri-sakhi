@@ -8,7 +8,7 @@ const App = () => {
   const city = useLocationStore((state) => state.city);
   console.log("-----------------------",city);
   return (
-    <div className="App">
+    <div className="w-full">
       <HealthyLivingComponent props={HealthyLivingData} />
     </div>
   );

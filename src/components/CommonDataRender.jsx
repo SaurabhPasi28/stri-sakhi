@@ -10,7 +10,7 @@ const HealthyLivingComponent = ({ props }) => {
   };
 
   return (
-    <div className={`container ${isNightMode ? 'bg-black text-white' : 'bg-white text-black'} pr-36 pl-16 mx-auto p-4`}>
+    <div className={` container ${isNightMode ? 'bg-black text-white' : 'bg-white text-black'} pr-36 pl-16 max-w-full p-4`}>
       {/* Toggle Button */}
       <div className="absolute right-10 top-30  ">
         <button

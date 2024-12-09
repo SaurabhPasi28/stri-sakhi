@@ -3,17 +3,17 @@ export const data = {
     "articles": [
       {
         "title": "Understanding Mental Health: Key Concepts",
-        "image": "path_to_image1.jpg",
+        "image": "https://i0.wp.com/honeybunnytwee.com/wp-content/uploads/2024/09/The-Importance-of-Mental-Health-in-Daily-Life.png?w=1200&ssl=1",
         "content": "Mental health is an integral part of overall well-being. Understanding key concepts such as emotional regulation, stress management, and mental resilience can help improve mental health and quality of life."
       },
       {
         "title": "The Importance of Mental Health Awareness",
-        "image": "path_to_image2.jpg",
+        "image": "https://cdnblogdiscover.leverageedu.com/discover/wp-content/uploads/2023/10/22115926/The-Importance-of-Mental-Health-Awareness-1.jpg",
         "content": "Raising awareness about mental health reduces stigma and encourages individuals to seek help. It also promotes early intervention and supports mental wellness through education and community resources."
       },
       {
         "title": "Strategies for Maintaining Mental Well-Being",
-        "image": "path_to_image3.jpg",
+        "image": "https://www.golfandhealth.org/wp-content/uploads/Article-Header-Images_Template.jpg",
         "content": "Maintaining mental well-being involves regular self-care, building strong social connections, practicing mindfulness, and seeking professional help when needed. Managing stress and addressing mental health issues proactively are crucial for a balanced life."
       }
     ],

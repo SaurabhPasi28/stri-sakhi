@@ -3,17 +3,17 @@ export const data = {
     "articles": [
       {
         "title": "Understanding Women's Health: Key Topics",
-        "image": "path_to_image1.jpg",
+        "image": "https://www.collidu.com/media/catalog/product/img1/a/6/a6554172dc07c531f8d3461f9f99958ad035b5d4c2928c5615ba3749ff0653c4/women-health-slide1.png",
         "content": "Women's health encompasses a range of issues from reproductive health to chronic conditions. Understanding these key topics can help women make informed decisions about their health and well-being."
       },
       {
         "title": "The Importance of Regular Health Screenings",
-        "image": "path_to_image2.jpg",
+        "image": "https://fastercapital.com/i/Check-up--The-Vital-Importance-of-Regular-Health-Check-ups--The-Benefits-of-Regular-Health-Check-ups.webp",
         "content": "Regular health screenings can help detect potential health issues early. Routine exams, mammograms, and Pap smears are essential for maintaining good health and preventing diseases."
       },
       {
         "title": "Healthy Lifestyle Tips for Women",
-        "image": "path_to_image3.jpg",
+        "image": "https://drbest.in/wp-content/uploads/2023/11/10-Tips-for-a-Healthy-Lifestyle-Reducing-Dependency-on-Medication.jpg",
         "content": "Adopting a healthy lifestyle involves a balanced diet, regular exercise, and adequate sleep. Managing stress and avoiding harmful habits are also crucial for overall well-being."
       }
     ],
