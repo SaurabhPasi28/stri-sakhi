@@ -40,7 +40,7 @@ const HeroSection = () => {
       >
         <li className="m-0 relative group">
           <Link
-            href="/Health"
+            href="/health"
             className="text-lg md:text-xl text-blue-500 no-underline relative inline-block px-2 py-1"
           >
             Health
@@ -49,7 +49,7 @@ const HeroSection = () => {
         </li>
         <li className="m-0 relative group">
           <Link
-            href="/LifeStyle"
+            href="/life-style"
             className="text-lg md:text-xl text-blue-500 no-underline relative inline-block px-2 py-1"
           >
             Lifestyle

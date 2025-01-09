@@ -58,14 +58,14 @@ const LocationSearch= () => {
         <FaMapMarkerAlt className="text-gray-600 mr-2" />
         <span className="text-gray-700">{renderLocation()}</span>
       </div>
-      <div className="flex items-center flex-grow px-4 py-2 bg-gray-100">
+      {/* <div className="flex items-center flex-grow px-4 py-2 bg-gray-100">
         <FaSearch className="text-gray-600 mr-2" />
         <input
           type="text"
           placeholder="Search for Hospitals, Clinics and more"
           className="w-full focus:outline-none placeholder:text-neutral-700 text-neutral-800 bg-gray-100"
         />
-      </div>
+      </div> */}
     </div>
   );
 };

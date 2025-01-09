@@ -12,7 +12,7 @@ const GoogleTranslator = () => {
 
     return (
         <div>
-            <div id="google_translate_element" className='w-20 border-2 rounded-md border-black h-5 font-bold overflow-hidden fixed z-50 bottom-10 left-5' />
+            <div id="google_translate_element" className='w-32 border-2 bg-white rounded-md border-black h-7 font-bold overflow-hidden relative z-50 top-2  sm:right-10' />
             <Script
                 src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
                 strategy="afterInteractive"
@@ -25,3 +25,5 @@ const GoogleTranslator = () => {
 };
 
 export default GoogleTranslator;
+
+

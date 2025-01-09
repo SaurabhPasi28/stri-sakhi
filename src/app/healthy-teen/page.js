@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import HealthyLivingComponent from '@/components/CommonDataRender';
+import HealthyLivingComponent from '@/app/components/CommonDataRender';
 import HealthyLivingData from '@/APICalls/HealthyTeen.js'
 import useLocationStore from '@/store/locationStore';
 
@@ -9,7 +9,7 @@ const App = () => {
   // console.log("-----------------------",city);
   return (
     <div className="w-full">
-      <HealthyLivingComponent props={HealthyLivingData} />
+      <HealthyLivingComponent props={HealthyLivingData}/>
     </div>
   );
 };

@@ -26,6 +26,14 @@ const nextConfig = {
       { protocol: 'https', hostname: 'www.venkateshwarhospitals.com', pathname: '/**' },
       { protocol: 'https', hostname: 'beyondtype1.org', pathname: '/**' },
       { protocol: 'https', hostname: 'assets.thehansindia.com', pathname: '/**' },
+      { protocol: 'https', hostname: "puffy.com" , pathname: '/**' },
+      { protocol: 'https', hostname: "www.helpguide.org", pathname: '/**' },
+      { protocol: 'https', hostname: "masterbundles.com", pathname: '/**' },
+      { protocol: 'https', hostname: "img.freepik.com", pathname: '/**' },
+      { protocol: 'https', hostname: "metrohospitalfaridabad.com", pathname: '/**' },
+      { protocol: 'https', hostname: "www.nirujahealthtech.com", pathname: '/**' },
+      { protocol: 'https', hostname: "www.weliahealth.org", pathname: '/**' },
+
     ], // Add all allowed domains here
   },
 };

@@ -1,6 +1,6 @@
 'use client'
-import HomeSlider from '@/components/Slider.js'
-import CardBox from '@/components/CardsBox.js'
+import HomeSlider from '@/app/components/Slider.js'
+import CardBox from '@/app/components/CardsBox.js'
 export default function Home() {
 
   return (

@@ -2,13 +2,13 @@ const FrontCardData =[
     {
         imageSrc: "https://mycareersview.com/afile/mcv20598_a1.jpg", altText: "Sample Image 1",
         description: "Genral Awareness",
-        link: "/Health/GenralAwareness"
+        link: "/health/genral-awareness"
       },
       {
         imageSrc: "https://c8.alamy.com/comp/2C7ADJK/mental-flat-line-health-vector-illustration-concept-2C7ADJK.jpg",
         altText: "Sample Image 2",
         description: "Mental Awareness",
-        link: "/Health/MentalAwareness"
+        link: "/health/mental-awareness"
       },
       {
         imageSrc: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQwxFUQxA8gAapL4Wey1biTIHPvZHSCPY4bgw0BgC5lWBh24jRL",

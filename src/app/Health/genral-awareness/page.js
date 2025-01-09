@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { data } from '@/APICalls/GenralAwarenessData.js'; // Adjust the path as necessary
 
 const ArticleCard = ({ image, title, content }) => (
-  <div className="bg-gray-100 p-4 rounded-lg w-[48%] shadow-md">
+  <div className="bg-gray-100 p-4 rounded-lg shadow-md my-4 min-w-80 w-full sm:w-[30%]">
     <Image
       src={image}
       alt={title}
@@ -69,9 +69,9 @@ const GenralAwarenes = () => {
       </section>
 
       {/* Healthy Teen Articles Section */}
-      <section className="mb-8">
+      <section className="mb-8 ">
         <h2 className="text-3xl text-blue-600 mb-4">General Awareness</h2>
-        <div className="flex flex-wrap gap-4">
+        <div className="flex flex-wrap justify-evenly gap-2 ">
           {data.articles.map((article, index) => (
             <ArticleCard
               key={index}
@@ -85,7 +85,7 @@ const GenralAwarenes = () => {
 
       {/* Diseases & Solutions Section */}
       <section className="mb-8">
-        <h2 className="text-3xl text-red-600 mb-4">Diseases & Solutions</h2>
+        <h2 className="text-3xl text-red-600 mb-4 ">Diseases & Solutions</h2>
         {data.diseases.map((disease, index) => (
           <DiseaseCard
             key={index}

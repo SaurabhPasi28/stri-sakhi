@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="flex justify-center items-center p-4 bg-slate-300 border-t border-gray-300 flex-wrap md:justify-between">
       {/* Social Media Links */}
       <div className="flex flex-col items-center">
-        <p className="pb-4 font-bold">Follow Sakhi</p>
+        <p className="pb-4 font-bold">Follow Stri-Sakhi</p>
         <div className="flex space-x-2">
           <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
             <FaTwitter className="text-4xl p-2 rounded-full border-2 border-gray-500 hover:border-blue-500 transition" />
@@ -40,7 +40,7 @@ const Footer = () => {
 
       {/* App Download Links */}
       <div className="flex flex-col items-center">
-        <p className="pb-4 font-bold">Get The Sakhi App</p>
+        <p className="pb-4 font-bold">Get The Stri-Sakhi App</p>
         <div className="flex space-x-4">
           <Link href="https://play.google.com/store" target="_blank" rel="noopener noreferrer" aria-label="Google Play Store" className="hover:text-blue-500 transition">
             <Image
@@ -50,14 +50,14 @@ const Footer = () => {
               height={40}
             />
           </Link>
-          <Link href="https://www.apple.com/in/app-store/" target="_blank" rel="noopener noreferrer" aria-label="Apple App Store" className="hover:text-blue-500 transition">
+          {/* <Link href="https://www.apple.com/in/app-store/" target="_blank" rel="noopener noreferrer" aria-label="Apple App Store" className="hover:text-blue-500 transition">
             <Image
               src="https://www.connectedly.org/wp-content/uploads/2023/12/OIP.jpg"
               alt="Apple App Store"
               width={128} // Provide width and height
               height={40}
             />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </footer>

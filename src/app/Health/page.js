@@ -1,5 +1,5 @@
 import React from 'react';
-import FrontCard from '@/components/FrontCard.js';
+import FrontCard from '@/app/components/FrontCard.js';
 import FrontCardData from '@/APICalls/FrontCardData.js';
 const FrontCardContainer = () => {
   return (

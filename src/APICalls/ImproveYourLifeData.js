@@ -2,7 +2,7 @@ const ImproveYourLifeData=[
     {
         imageSrc: "https://masterbundles.com/wp-content/uploads/2023/01/yoga_madterbundles-2-711-490x490.jpg", altText: "Sample Image 1",
         description: "Yoga",
-        link: "/LifeStyle/Yoga"
+        link: "/life-style/yoga"
       },
       {
         imageSrc: "https://puffy.com/cdn/shop/articles/how-to-meditate-3_1024x.jpg?v=1639635327",

@@ -1,5 +1,5 @@
 import React from 'react';
-import FrontCard from '@/components/FrontCard';
+import FrontCard from '@/app/components/FrontCard';
 import ImproveYourLifeData from '@/APICalls/ImproveYourLifeData.js';
 
 const ImproveYourLife = () => {

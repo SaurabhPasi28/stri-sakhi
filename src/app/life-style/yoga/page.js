@@ -17,7 +17,7 @@ const Yoga = () => {
   return (
     <div className={`min-h-screen ${isNightMode ? 'bg-black text-white' : 'bg-white text-black'}`}>
       {/* Toggle Button */}
-      <div className="fixed top-4 right-4">
+      <div className="absolute right-10 top-40">
         <button
           onClick={toggleTheme}
           className="px-4 py-2 bg-gray-700 text-white rounded-md shadow-md hover:bg-gray-600 transition-all"
